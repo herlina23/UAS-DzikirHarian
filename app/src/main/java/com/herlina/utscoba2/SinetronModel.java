@@ -8,13 +8,13 @@ public class SinetronModel {
     // Array nama sinetron di kategori drama
     public static final SinetronModel[] drama = {
 
-            new SinetronModel("Tersandung",
+            new SinetronModel("Belajar Qira'ah Bersama Taqy Malik",
                     "4:12",
                     "sample_video_1"),
-            new SinetronModel("Ganteng-ganteng Amburadul",
+            new SinetronModel("Macam-macam langgam qira'ah",
                     "3:22",
                     "sample_video_2"),
-            new SinetronModel("Tukang Haji Naik Bubur",
+            new SinetronModel("Law kana bainalnal habib",
                     "10:11",
                     "sample_video_3")
     };

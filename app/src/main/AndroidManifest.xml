@@ -7,6 +7,10 @@
         android:required="true" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -54,7 +58,7 @@
         </service>
 
         <activity android:name=".Media" />
-        <activity android:name=".BroadcastWidget" />
+
 
         <receiver android:name=".BroadcastWidget">
             <intent-filter>
@@ -66,7 +70,8 @@
                 android:resource="@xml/broadcast_widget_info" />
         </receiver>
 
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CompassActivity"></activity>
     </application>
 
 </manifest>

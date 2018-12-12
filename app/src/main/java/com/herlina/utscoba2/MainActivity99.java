@@ -21,6 +21,7 @@ public class MainActivity99 extends AppCompatActivity {
         ImageButton ton3 = (ImageButton) findViewById(R.id.button3);
         ImageButton ton4 = (ImageButton) findViewById(R.id.button4);
         ImageButton ton5 = (ImageButton) findViewById(R.id.button5);
+        ImageButton ton6 = (ImageButton) findViewById(R.id.button6);
 
 
 
@@ -62,6 +63,15 @@ public class MainActivity99 extends AppCompatActivity {
             public void onClick(View arg0) {
 // TODO Auto-generated method stub
                 Intent inte2 = new Intent(MainActivity99.this, MainActivity.class);
+                startActivity(inte2);
+            }
+        });
+
+        ton6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+// TODO Auto-generated method stub
+                Intent inte2 = new Intent(MainActivity99.this, CompassActivity.class);
                 startActivity(inte2);
             }
         });
