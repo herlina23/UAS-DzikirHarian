@@ -4,6 +4,10 @@ Aplikasi ini memiliki 3 fitur,
 1. Dzikir harian menggunakan fragment
 2. Mood hari ini, kita daapt melihat quote islami hari ini dengan foto selfie kita (menggunakan library google vision)
 3. Notifikasi pengingat dzikir menggunakan FCM
+4. Media pemutar video islami
+5. Todo list dzikir / mengaji
+6. Kompas pencari kiblat
+7. Widget penhitung dzikir
 
 Nama Aplikasi		: Dzikir Harian
 Anggota		: 
@@ -33,7 +37,8 @@ fitur yang dibuat setelah UTS
 17. GPS Tracker : get latitude dan longitude
 18. Main Activity : array list untuk menampilkan to do list
 19. TaskDBHelper : berisi fungsi untuk membuat tabel untuk menyimpan to do list
-20. TaskContract : memberi nama db dan tabel
+20. TaskContract : memberi nama db dan tabel'
+21. BroadcastWidget : menampilkan widget mini yang bisa digunakan sebagai penghitung dzikir
 
 
 Spesifikasi perangkat :
