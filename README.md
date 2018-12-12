@@ -12,7 +12,7 @@ Anggota		:
 -	TI-4E
 
 1.	Splashscreen : sebagai halaman awal pembuka aplikasi
-2.	Main activity : class ini berisi 3 button yang akan menyambungkan link ke halam lainnya
+2.	MainActivity99 : class ini berisi 3 button yang akan menyambungkan link ke halam lainnya
 3.	Fragment : class yang mengatur fragment orientation yang dipengaruhi rotation dan juga memgatur fragment transaction
 4.	DzikirMenuFragment :  Class Fragment berisi method untuk list view menu dzikir 
 5.	DzikirDetailFragment :  Class Fragment berisi method untuk list view detail dzikir 
@@ -23,6 +23,18 @@ Anggota		:
 10.	Fbs : class yang akan menampilkan pesan berupa title dan body yang dikirim dengan notifikasi FCM
 11.	MyFirebaseMessagingService : class yang mengatur request token dan menerima pesan dari FCM
 12.	MyNotificationManager : class yang berfungsi untuk megatur notifikasi dari FCM
+
+fitur yang dibuat setelah UTS
+
+13. Media : set adapter untuk memutar video
+14. sinetronModel : untuk mengakses video yang tersimpan dalam folder res/raw
+15. compass activity : untuk menampilkan function yang berisi gps tracker lokasi kita dan kompas.
+16. compass : mengolah perhitungan kompas untuk mencari kiblat
+17. GPS Tracker : get latitude dan longitude
+18. Main Activity : array list untuk menampilkan to do list
+19. TaskDBHelper : berisi fungsi untuk membuat tabel untuk menyimpan to do list
+20. TaskContract : memberi nama db dan tabel
+
 
 Spesifikasi perangkat :
 Minimal menggunakan Android 6.0 (API Level 23)  Jelly Bean
