@@ -1,4 +1,4 @@
-# UTS-DzikirHarian
+# UAS-DzikirHarian
 Tugas UTS Android Menggunakan Fragments, Image processing library &amp; Firebase Cloud Messaging Notification
 Aplikasi ini memiliki 3 fitur,
 1. Dzikir harian menggunakan fragment
